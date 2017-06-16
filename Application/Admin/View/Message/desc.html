@@ -1,0 +1,81 @@
+<div class="panel admin-panel">
+  <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>
+	留言详情
+  </strong></div>
+  <div class="body-content">
+    <form method="post" class="form-x" action="{:U('',['id'=>$_GET['id']])}">  
+      <div class="form-group">
+        <div class="label">
+          <label>姓名：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" name="user_name" value="{$res['name']|default=''}" />
+          <div class="tips"></div>
+        </div>
+      </div>
+	  
+	  <div class="form-group">
+        <div class="label">
+          <label>所在地区：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" name="password" value="{$res['area']|default=''}" />
+          <div class="tips"></div>
+        </div>
+      </div>
+	  
+	  <div class="form-group">
+        <div class="label">
+          <label>所在公司：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" name="repassword" value="{$res['company']|default=''}" />
+          <div class="tips"></div>
+        </div>
+      </div>
+	  
+	  <div class="form-group">
+        <div class="label">
+          <label>联系电话：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" name="repassword" value="{$res['tel']|default=''}" />
+          <div class="tips"></div>
+        </div>
+      </div>
+	  
+	  <div class="form-group">
+        <div class="label">
+          <label>E-mail：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" name="repassword" value="{$res['email']|default=''}" />
+          <div class="tips"></div>
+        </div>
+      </div>
+	  
+	  <div class="form-group">
+        <div class="label">
+          <label>内容：</label>
+        </div>
+        <div class="field">
+          <!-- 加载编辑器的容器 -->
+		<textarea id="container" name="content" type="text/plain" style="height:300px;">
+			{$res['content']|default=''}
+		</textarea>
+		<!-- 配置文件 -->
+		<script type="text/javascript" src="__PUBLIC__UEditor/ueditor.config.js"></script>
+		<!-- 编辑器源码文件 -->
+		<script type="text/javascript" src="__PUBLIC__UEditor/ueditor.all.js"></script>
+		<!-- 实例化编辑器 -->
+		<script type="text/javascript">
+        var ue = UE.getEditor('container');
+		</script>
+          <div class="tips"></div>
+        </div>
+      </div>
+		
+      
+    </form>
+  </div>
+</div>

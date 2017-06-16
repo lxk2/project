@@ -1,0 +1,146 @@
+<div class="Payment">
+	<form action="{:U('Member/addAddress')}" method="post">
+	<div class="Paymentbig">
+    	<div class="paymentl">
+        <span>会员中心</span>
+        	<ul>
+            	<li><a href="{:U('Member/index')}">会员中心</a></li>
+                <li><a href="{:U('Member/userInfo')}">个人资料</a></li>
+                <li><a class="p" href="{:U('Cart/index')}">我的购物车</a></li>
+                <li><a href="password.html">修改密码</a></li>
+                <li><a href="{:U('Member/address')}">收货地址</a></li>
+                <li><a href="Purchase.html">购买记录</a></li>
+                <li><a href="{:U('Order/index')}">确认订单</a></li>
+                <li><a href="Payment failure.html">确认付款</a></li>
+            </ul>
+        </div>
+        <div class="paymentr">
+		
+			
+		
+		
+        	<div class="paymentrt"><span><i class="iconfont icon-iconfontcolor65"></i>Address</span><p>当前位置：<a href="index.html">首页>></a><a href="member.html">会员中心>></a ><a href="password.html">收货地址</a></p></div>
+			<style>
+				table tr td a.a1 {
+					display: inline-block;
+					width: 75px;
+					height: 30px;
+					background: #f63;
+					border-radius: 10px;
+					-webkit-border-radius: 10px;
+					border: 0px;
+					outline: none;
+					text-align: center;
+					color: #fff;
+					line-height: 30px;
+				}   
+				
+			</style>
+			<table style="margin-top:10px;">
+				<foreach name="user_addr" item="value">
+				<tr style="overflow:hidden;width:auto;height:auto;float:none;text-align:center;line-height:60px;">
+					<td>
+						{$value['province']['region_name']}{$value['city']['region_name']}{$value['area']['region_name']}{$value['addr']} （{$value['name']} 收）{$value['phone']}
+					</td>
+					<td><a data-id="{$value['id']}" class="a1" href="javascript:;" >删除</a></td>
+				</tr>
+				</foreach>
+				
+			</table>
+			
+            <div class="password">
+			<div id="region">
+				<div class="abc">
+					<span><i>*</i>省份：</span><p>
+					<select name="province_id" onchange="region(this)">
+						<option class="first" value="">请选择省份</option>
+						<foreach name="region" item="value">
+						<option value="{$value['region_id']}">{$value['region_name']}</option>
+						</foreach>
+					</select>
+					</p>
+				</div>
+				<div class="abc">
+					<span><i>*</i>城市：</span><p>
+					<select name="city_id" onchange="region(this)">
+						<option class="first" value="">请选择城市</option>
+					</select>
+					</p>
+				</div>
+				<div class="abc">
+					<span><i>*</i>地区：</span><p>
+					<select name="area_id" onchange="region(this)">
+						<option class="first" value="">请选择地区</option>
+					</select>
+					</p>
+				</div>
+			</div>
+            <span><i>*</i>收货人：</span><p><input type="text" name="name"></p>
+            <span><i>*</i>联系电话：</span><p><input type="text" name="phone"></p>
+            <span><i>*</i>详尽地址：</span><p><textarea type="text" name="addr" style="height:70px;width:350px;resize:none;"></textarea></p>
+            
+            <a class="a1" href="javascript:;" onclick="submitt()" >提交</a>
+            </div>
+        	
+        </div>
+     </div>
+	 </form>
+</div>
+<script>
+	function region(obj) {
+		var region_id = $(obj).val();
+		var name = $(obj).parents('.abc').next().find('select').find('.first').html();
+		if(region_id == 0){
+			if(name == '请选择城市'){
+				$(obj).parents('.abc').next().next().find('select').html('<option class="first" value="">请选择地区</option>');
+			}
+			$(obj).parents('.abc').next().find('select').html('<option class="first" value="">'+name+'</option>');
+			return false;
+		}
+		$.ajax({
+			type:'post',
+			url:'{:U("Member/regionSelect")}',
+			data:{
+				region_id:region_id,
+				name:name,
+			},
+			dataType:'html',
+			success:function(data) {
+				if(data == 1){
+					return false;
+				}
+				$(obj).parents('.abc').next().find('select').html(data);
+				$(obj).parents('.abc').next().next().find('select').html('<option class="first" value="">请选择地区</option>');
+			}
+		})
+	}
+	
+	function submitt() {
+		var province_id = $('select[name="province_id"]').val();
+		var city_id = $('select[name="city_id"]').val();
+		var area_id = $('select[name="area_id"]').val();
+		var name = $('input[name="name"]').val();
+		var phone = $('input[name="phone"]').val();
+		var addr = $('textarea[name="addr"]').val();
+		$.ajax({
+			type:'post',
+			url:'{:U("Member/addAddress")}',
+			data:{
+				province_id:province_id,
+				city_id:city_id,
+				area_id:area_id,
+				name:name,
+				phone:phone,
+				addr:addr,
+			},
+			dataType:'text',
+			success:function(data) {
+				alert(data);
+				if(data == '添加成功'){
+					
+				}
+			},
+		})
+	}
+	
+</script>

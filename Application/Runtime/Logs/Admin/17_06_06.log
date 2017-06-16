@@ -1,0 +1,1846 @@
+[ 2017-06-06T09:32:00+08:00 ] 127.0.0.1 /Admin/Goods/spec_items/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T09:33:17+08:00 ] 127.0.0.1 /Admin/Goods/spec_items/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T09:35:51+08:00 ] 127.0.0.1 /Admin/Goods/spec_items/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T09:35:54+08:00 ] 127.0.0.1 /Admin/Goods/spec_items/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T09:36:17+08:00 ] 127.0.0.1 /Admin/Goods/spec_items/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T09:36:34+08:00 ] 127.0.0.1 /Admin/Goods/spec_items/id/
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T09:43:39+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000627s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `goods_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 9  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0034s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='17' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 6  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='13' )  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='15' )  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='16' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 7  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 8  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011835s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011895s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000983s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001031s ]
+
+[ 2017-06-06T09:43:44+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id%5B%5D=4&id%5B%5D=5&id%5B%5D=60&id%5B%5D=54&id%5B%5D=55&id%5B%5D=56&id%5B%5D=57
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001151s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0469s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','5','60','54','55','56','57') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T09:43:53+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `goods_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 9  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0054s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='17' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 6  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='13' )  [ RunTime:0.0007s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='15' )  [ RunTime:0.0003s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='16' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 7  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 8  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2017-06-06T09:43:56+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id%5B%5D=5&id%5B%5D=60&id%5B%5D=54
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001720s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('5','60','54') ORDER BY spec_id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T10:33:25+08:00 ] 127.0.0.1 /Admin/Goods/edit/id/%7BU(%22Goods/spec_items%22)%7D?id=4%2C60%2C54%2C55%2C57%2C5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001007s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0008s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\sky\Desktop\project\Application\Common\Model\GoodsModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `brand`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: image C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 42 行.
+NOTIC: [8] Undefined index: image C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 42 行.
+NOTIC: [8] Undefined index: category_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 90 行.
+NOTIC: [8] Undefined index: category_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 90 行.
+NOTIC: [8] Undefined index: category_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 90 行.
+NOTIC: [8] Undefined index: category_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 90 行.
+NOTIC: [8] Undefined index: category_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 90 行.
+NOTIC: [8] Undefined index: category_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 90 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022207s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022268s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001165s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001406s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001515s ]
+
+[ 2017-06-06T10:34:51+08:00 ] 127.0.0.1 /Admin/Goods/edit/id/%7BU(%22Goods/spec_items%22)%7D?id=4%2C60%2C54%2C55%2C57%2C5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001393s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\sky\Desktop\project\Application\Common\Model\GoodsModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `brand`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000180s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000276s ]
+NOTIC: [8] Undefined index: image C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 42 行.
+NOTIC: [8] Undefined index: image C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 42 行.
+NOTIC: [8] Undefined index: category_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 90 行.
+NOTIC: [8] Undefined index: category_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 90 行.
+NOTIC: [8] Undefined index: category_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 90 行.
+NOTIC: [8] Undefined index: category_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 90 行.
+NOTIC: [8] Undefined index: category_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 90 行.
+NOTIC: [8] Undefined index: category_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 90 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016707s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016751s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000579s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001215s ]
+
+[ 2017-06-06T10:35:14+08:00 ] 127.0.0.1 /Admin/Goods/edit/id/%7BU(%22Goods/spec_items%22)%7D?id=4%2C60%2C54%2C55%2C57%2C5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002365s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `goods` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\sky\Desktop\project\Application\Common\Model\GoodsModel.class.php 第 154 行.
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `category`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `brand` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `brand`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000504s ]
+NOTIC: [8] Undefined index: image C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 42 行.
+NOTIC: [8] Undefined index: image C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 42 行.
+NOTIC: [8] Undefined index: category_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 90 行.
+NOTIC: [8] Undefined index: category_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 90 行.
+NOTIC: [8] Undefined index: category_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 90 行.
+NOTIC: [8] Undefined index: category_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 90 行.
+NOTIC: [8] Undefined index: category_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 90 行.
+NOTIC: [8] Undefined index: category_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 90 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+NOTIC: [8] Undefined index: goods_brand_id C:\Users\sky\Desktop\project\Application\Runtime\Cache\Admin\346dfcdf6ec8d3c93d33b5eb4f636a21.php 第 103 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018548s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001466s ]
+
+[ 2017-06-06T10:37:32+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001879s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0103s ]
+SQL: SELECT * FROM `goods_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 9  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0112s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='17' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 6  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='13' )  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='15' )  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='16' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 7  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 8  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000332s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000684s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000921s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000975s ]
+
+[ 2017-06-06T10:37:37+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id%5B%5D=4&id%5B%5D=5&id%5B%5D=60&id%5B%5D=54&id%5B%5D=55&id%5B%5D=56&id%5B%5D=57
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001711s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','5','60','54','55','56','57') ORDER BY spec_id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T10:38:39+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T10:39:00+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000867s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001380s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0049s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T10:39:08+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001108s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T10:40:19+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001576s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T10:41:36+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001929s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002545s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T10:49:21+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001147s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001658s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T10:49:51+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T10:50:54+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001819s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T11:03:51+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&spec_price=Array
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001167s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 145 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 145 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 145 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 145 行.
+NOTIC: [8] Uninitialized string offset: 5 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 145 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 145 行.
+NOTIC: [8] Uninitialized string offset: 5 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 145 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 145 行.
+NOTIC: [8] Uninitialized string offset: 5 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 145 行.
+
+[ 2017-06-06T11:06:05+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&spec_price=Array
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000751s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001122s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] Uninitialized string offset: 5 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] Uninitialized string offset: 5 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] Uninitialized string offset: 5 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+
+[ 2017-06-06T11:06:44+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&spec_price=Array
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000956s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001398s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] Uninitialized string offset: 5 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] Uninitialized string offset: 5 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] Uninitialized string offset: 5 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+
+[ 2017-06-06T11:07:20+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&spec_price=Array
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002169s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0003s ]
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] Uninitialized string offset: 5 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] Uninitialized string offset: 5 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] Uninitialized string offset: 5 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+
+[ 2017-06-06T11:09:05+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&spec_price=Array
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001529s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] Uninitialized string offset: 5 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] Uninitialized string offset: 5 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] A non well formed numeric value encountered C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] Uninitialized string offset: 5 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+
+[ 2017-06-06T11:09:57+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&spec_price=Array
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002150s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T11:12:04+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&price=Array
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001681s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T11:13:26+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&price=Array
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002515s ]
+NOTIC: [8] Array to string conversion C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 106 行.
+
+[ 2017-06-06T11:13:43+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&price=Array
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001613s ]
+NOTIC: [8] Array to string conversion C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 106 行.
+
+[ 2017-06-06T11:14:03+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&price=Array
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002149s ]
+
+[ 2017-06-06T11:15:04+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&price=Array
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002294s ]
+
+[ 2017-06-06T11:15:53+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&price=Array
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002325s ]
+
+[ 2017-06-06T11:17:11+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&price=Array
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002241s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 107 行.
+
+[ 2017-06-06T11:19:16+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&price=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001552s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 107 行.
+
+[ 2017-06-06T11:24:11+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&price=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001722s ]
+NOTIC: [2] Invalid argument supplied for foreach() C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 107 行.
+
+[ 2017-06-06T11:24:17+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&price%5B%5D=%24value&price%5B%5D=%24value&price%5B%5D=%24value&price%5B%5D=%24value&price%5B%5D=%24value&price%5B%5D=%24value
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001102s ]
+
+[ 2017-06-06T11:25:37+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&price%5B%5D=555.00&price%5B%5D=226.00&price%5B%5D=22.00&price%5B%5D=55.00&price%5B%5D=211.00&price%5B%5D=22.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: 4,60,54 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] Undefined index: 4,60,55 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] Undefined index: 4,60,57 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] Undefined index: 5,60,54 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] Undefined index: 5,60,55 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+NOTIC: [8] Undefined index: 5,60,57 C:\Users\sky\Desktop\project\Application\Admin\Controller\GoodsController.class.php 第 149 行.
+
+[ 2017-06-06T11:27:03+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&price%5B%5D=555.00&price%5B%5D=226.00&price%5B%5D=22.00&price%5B%5D=55.00&price%5B%5D=211.00&price%5B%5D=22.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001303s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T11:28:40+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&price%5B%5D=555.00&price%5B%5D=226.00&price%5B%5D=22.00&price%5B%5D=55.00&price%5B%5D=211.00&price%5B%5D=22.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001906s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T11:29:57+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&price%5B%5D=555.00&price%5B%5D=226.00&price%5B%5D=22.00&price%5B%5D=55.00&price%5B%5D=211.00&price%5B%5D=22.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001285s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T11:43:12+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&price%5B%5D=555.00&price%5B%5D=226.00&price%5B%5D=22.00&price%5B%5D=55.00&price%5B%5D=211.00&price%5B%5D=22.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001139s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001517s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0052s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T11:43:15+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0045s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T11:43:23+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&price%5B%5D=555.00&price%5B%5D=226.00&price%5B%5D=22.00&price%5B%5D=55.00&price%5B%5D=211.00&price%5B%5D=22.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001115s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T11:44:01+08:00 ] 127.0.0.1 /Admin/Goods/add.html
+ERR: XML标签语法错误 : name"Think.get.id"
+
+[ 2017-06-06T11:44:17+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001314s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0051s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T11:44:19+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&price%5B%5D=555.00&price%5B%5D=226.00&price%5B%5D=22.00&price%5B%5D=55.00&price%5B%5D=211.00&price%5B%5D=22.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T11:45:07+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&price%5B%5D=555.00&price%5B%5D=226.00&price%5B%5D=22.00&price%5B%5D=55.00&price%5B%5D=211.00&price%5B%5D=22.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T11:47:29+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C55%2C57%2C5&price%5B%5D=555.00&price%5B%5D=226.00&price%5B%5D=22.00&price%5B%5D=55.00&price%5B%5D=211.00&price%5B%5D=22.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001495s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','55','57','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0003s ]
+
+[ 2017-06-06T12:49:28+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000976s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0044s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T12:49:30+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002341s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008783s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008850s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000914s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002541s ]
+
+[ 2017-06-06T12:49:34+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002307s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010243s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000556s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2017-06-06T12:49:41+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001568s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `goods_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 9  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0033s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='17' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 6  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='13' )  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='15' )  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='16' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 7  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 8  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2017-06-06T12:49:45+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id%5B%5D=4&id%5B%5D=5&id%5B%5D=60&id%5B%5D=54
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','5','60','54') ORDER BY spec_id asc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T12:51:18+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T19:15:21+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000539s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0043s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T19:15:23+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0059s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T19:15:39+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001653s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T19:17:18+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001946s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T19:17:53+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001578s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T19:18:25+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001859s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `goods_type`  [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 9  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0118s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='17' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 6  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='13' )  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='15' )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='16' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 7  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 8  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010929s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002148s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002205s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2017-06-06T19:18:30+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id%5B%5D=4&id%5B%5D=5&id%5B%5D=60&id%5B%5D=54&id%5B%5D=55
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001970s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','5','60','54','55') ORDER BY spec_id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0577s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0004s ]
+
+[ 2017-06-06T19:20:23+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001055s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001533s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T19:20:31+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000460s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001708s ]
+
+[ 2017-06-06T19:20:45+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0036s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T19:20:46+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001387s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010124s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010193s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001814s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001879s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001394s ]
+
+[ 2017-06-06T19:20:52+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001638s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T19:20:53+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001805s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007384s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002708s ]
+
+[ 2017-06-06T19:21:29+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003647s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007958s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000768s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003288s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003405s ]
+
+[ 2017-06-06T19:21:48+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000756s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001106s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T19:21:49+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000569s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000744s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2017-06-06T19:22:42+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0045s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T19:22:43+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001143s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010203s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010250s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000783s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000817s ]
+
+[ 2017-06-06T19:22:47+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001704s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007606s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001633s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001839s ]
+
+[ 2017-06-06T19:23:14+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0037s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T19:23:16+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000098s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007150s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001645s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001745s ]
+
+[ 2017-06-06T19:24:59+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001378s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T19:25:00+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001217s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000809s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000846s ]
+
+[ 2017-06-06T19:25:16+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T19:25:18+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001220s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001816s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011816s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000502s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000736s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2017-06-06T19:25:22+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000853s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016168s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016267s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000997s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2017-06-06T19:25:33+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002191s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T19:25:36+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010983s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011040s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001014s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001059s ]
+
+[ 2017-06-06T19:27:37+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001980s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000112s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010431s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010495s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000759s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001223s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001277s ]
+
+[ 2017-06-06T19:30:03+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000850s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001206s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0058s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T19:30:05+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002082s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008443s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002149s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002248s ]
+
+[ 2017-06-06T19:30:38+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0057s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0003s ]
+
+[ 2017-06-06T19:30:40+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002265s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012917s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012991s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000479s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000785s ]
+
+[ 2017-06-06T19:31:07+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001885s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000651s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000878s ]
+
+[ 2017-06-06T19:32:22+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001067s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001581s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T19:32:39+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `goods_type`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 9  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0109s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='17' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 6  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='13' )  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='15' )  [ RunTime:0.0001s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='16' )  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 7  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 8  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000094s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012577s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000791s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001187s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001242s ]
+
+[ 2017-06-06T19:32:43+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id%5B%5D=4&id%5B%5D=5&id%5B%5D=60&id%5B%5D=54&id%5B%5D=55&id%5B%5D=56
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002186s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','5','60','54','55','56') ORDER BY spec_id asc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0003s ]
+
+[ 2017-06-06T19:32:47+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000774s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001268s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('') ORDER BY spec_id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0044s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T19:32:50+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001970s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `goods_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 9  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0037s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='17' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 6  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='13' )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='15' )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='16' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 10  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 7  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 8  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000197s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010842s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000463s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000497s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000907s ]
+
+[ 2017-06-06T19:32:54+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id%5B%5D=4&id%5B%5D=5&id%5B%5D=60&id%5B%5D=54&id%5B%5D=55&id%5B%5D=56
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002440s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','5','60','54','55','56') ORDER BY spec_id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T19:32:55+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000694s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001165s ]
+
+[ 2017-06-06T19:33:04+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001417s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010826s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010897s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000609s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001105s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2017-06-06T19:33:08+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013663s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013745s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001154s ]
+
+[ 2017-06-06T19:33:13+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000178s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001320s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001465s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001517s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001602s ]
+
+[ 2017-06-06T19:33:20+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001651s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000183s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013661s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013749s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000805s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001358s ]
+
+[ 2017-06-06T19:34:29+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000729s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0047s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T19:34:30+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009322s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009385s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2017-06-06T19:34:37+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001605s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002326s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009206s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000834s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001229s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001280s ]
+
+[ 2017-06-06T19:34:45+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001194s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T19:34:45+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002288s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008801s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000773s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001235s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001286s ]
+
+[ 2017-06-06T19:34:53+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001431s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011925s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000564s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000828s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2017-06-06T19:35:17+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001902s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0048s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T19:48:40+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002739s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0419s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T19:49:33+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001164s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T19:51:03+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('') ORDER BY spec_id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0046s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T19:51:05+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002126s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010651s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010731s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000827s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001746s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001817s ]
+
+[ 2017-06-06T19:52:20+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001995s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0003s ]
+
+[ 2017-06-06T19:52:24+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002655s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T19:52:29+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001234s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0003s ]
+
+[ 2017-06-06T19:55:53+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004149s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000793s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001365s ]
+
+[ 2017-06-06T19:56:10+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T19:56:19+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001031s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `goods_type`  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 9  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0047s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='17' )  [ RunTime:0.0008s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 6  [ RunTime:0.0006s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='13' )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='15' )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='16' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 10  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 7  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 8  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009139s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001569s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001770s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002495s ]
+
+[ 2017-06-06T19:56:22+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000089s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009400s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000678s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001296s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001404s ]
+
+[ 2017-06-06T19:56:28+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001205s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0056s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T20:03:22+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002772s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0039s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T20:03:32+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000931s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001437s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000126s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000238s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009128s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000685s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000725s ]
+
+[ 2017-06-06T20:03:36+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001890s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002811s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000058s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008625s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008673s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000772s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001041s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2017-06-06T20:03:40+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002031s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0303s ]
+SQL: SELECT * FROM `goods_type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0675s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 9  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0346s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='17' )  [ RunTime:0.0013s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 6  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='13' )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='15' )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='16' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 10  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 7  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 8  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000164s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000347s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014222s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001819s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001859s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002116s ]
+
+[ 2017-06-06T20:03:45+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id%5B%5D=4&id%5B%5D=5&id%5B%5D=60&id%5B%5D=55
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','5','60','55') ORDER BY spec_id asc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0003s ]
+
+[ 2017-06-06T20:04:53+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003439s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0056s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T20:05:28+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003218s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0004s ]
+
+[ 2017-06-06T20:09:11+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=4%2C60%2C54%2C5&price%5B%5D=533.00&price%5B%5D=599.00
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','60','54','5') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T20:16:55+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000750s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001186s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0057s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T20:16:59+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001928s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010470s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010534s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000637s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000681s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002281s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002345s ]
+
+[ 2017-06-06T20:17:08+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002088s ]
+SQL: SHOW COLUMNS FROM `goods_type` [ RunTime:0.0291s ]
+SQL: SELECT * FROM `goods_type`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 9  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0034s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='17' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 6  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='13' )  [ RunTime:0.0009s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='15' )  [ RunTime:0.0002s ]
+SQL: SELECT `id`,`items` FROM `spec_items` WHERE ( 1=1 AND spec_id='16' )  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 10  [ RunTime:0.0002s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 7  [ RunTime:0.0001s ]
+SQL: SELECT * FROM `spec` WHERE `type_id` = 8  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009879s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009958s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001193s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2017-06-06T20:17:13+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id%5B%5D=4&id%5B%5D=5&id%5B%5D=60&id%5B%5D=54
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001075s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001890s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('4','5','60','54') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `spec` WHERE `id` IN (13,15,16)  [ RunTime:0.0002s ]
+
+[ 2017-06-06T20:17:23+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001876s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('') ORDER BY spec_id asc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0043s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+
+[ 2017-06-06T20:20:10+08:00 ] 127.0.0.1 /Admin/Goods/upload.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000117s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009636s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000892s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000948s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000724s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2017-06-06T20:20:19+08:00 ] 127.0.0.1 /Admin/Goods/spec_items.html?id=
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003055s ]
+SQL: SHOW COLUMNS FROM `spec_items` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `spec_items` WHERE `id` IN ('') ORDER BY spec_id asc  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `spec` [ RunTime:0.0040s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `spec` WHERE `id` IN () 
+

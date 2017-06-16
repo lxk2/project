@@ -1,0 +1,45 @@
+<style>
+	.cur {
+		background:lightseagreen;
+		border:1px solid lightseagreen;
+	}
+</style>
+<div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+	<foreach name="res" item="value">
+    <li role="presentation" class="<?php if($active == $value['id']){echo 'active';} ?>"><a href="#{$value['id']}" aria-controls="{$value['id']}" role="tab" data-toggle="tab">{$value['type_name']}</a></li>
+	</foreach>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+  <foreach name="res" item="value">
+    <div role="tabpanel" class="tab-pane <?php if($active == $value['id']){echo 'active';} ?>" id="{$value['id']}">
+		<dl>
+			<?php if(!empty($value['child'])){ ?>
+			<?php foreach($value['child'] as $v){ ?>
+			<dt style="clear:both;">{$v['spec_name']}</dt>
+			<?php foreach($v['spec_items'] as $val){ ?>
+			<dd id="{$val['id']}" style="border:1px solid;float:left;padding:0 5px;margin-right:5px;cursor:pointer;" onclick="cur(this)">{$val['items']}</dd>
+			<?php }}} ?>
+		</dl>
+	</div>
+	</foreach>
+
+  </div>
+
+</div>
+<script>
+	function cur(obj) {
+		$(obj).toggleClass('cur');
+		$('.tab-pane').each(function() {
+			var cur = $(this).prop('class');
+			if(cur.length == 8){
+				$(this).find('dl').find('dd').removeClass('cur');
+			}
+		})
+	}
+	
+</script>

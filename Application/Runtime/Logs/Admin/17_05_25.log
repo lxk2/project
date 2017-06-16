@@ -1,0 +1,273 @@
+[ 2017-05-25T15:42:25+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=1&str=ccc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000577s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:42:27+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=5&str=aa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 5  [ RunTime:0.0003s ]
+
+[ 2017-05-25T15:42:29+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=6&str=xxx
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 6  [ RunTime:0.0003s ]
+
+[ 2017-05-25T15:42:31+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=7&str=qqq
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 7  [ RunTime:0.0003s ]
+
+[ 2017-05-25T15:42:33+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=9&str=asssss
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 9  [ RunTime:0.0003s ]
+
+[ 2017-05-25T15:42:37+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=6&str=xxx
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000916s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 6  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:42:38+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=7&str=qqq
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 7  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:42:41+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=2&str=%E5%95%86%E5%93%81
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0046s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 2  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:42:53+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=8&str=as
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 8  [ RunTime:0.0003s ]
+
+[ 2017-05-25T15:42:55+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=10&str=111
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0213s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 10  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:42:57+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=4&str=%E8%A1%A3%E6%9C%8D
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 4  [ RunTime:0.0003s ]
+
+[ 2017-05-25T15:49:42+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=2&str=%E5%95%86%E5%93%81
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000908s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 2  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:49:43+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=8&str=as
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 8  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:49:45+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=10&str=111
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 10  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:50:01+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=&str=--+choose+--
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 0  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:50:10+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=&str=--+choose+--
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000963s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 0  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:50:12+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=0&str=%E9%A1%B6%E7%BA%A7%E5%88%86%E7%B1%BB
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0039s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 0  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:50:18+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=1&str=ccc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:50:21+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=5&str=aa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 5  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:50:25+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=&str=--+choose+--
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000892s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 0  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:52:32+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=1&str=ccc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:52:34+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=5&str=aa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000910s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 5  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:52:39+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=5&str=aa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000899s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 5  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:53:26+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=1&str=ccc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:53:28+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=5&str=aa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 5  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:53:30+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=&str=--+choose+--
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001489s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001921s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 0  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:54:06+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=1&str=ccc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001002s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:54:07+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=5&str=aa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 5  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:54:17+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=1&str=ccc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000925s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:54:18+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=5&str=aa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 5  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:54:27+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=6&str=xxx
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0067s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 6  [ RunTime:0.0002s ]
+
+[ 2017-05-25T15:54:29+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=7&str=qqq
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000996s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 7  [ RunTime:0.0002s ]
+
+[ 2017-05-25T16:12:31+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=1&str=ccc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000993s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-05-25T17:32:13+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=1&str=ccc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000901s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-05-25T17:32:15+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=5&str=aa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 5  [ RunTime:0.0002s ]
+
+[ 2017-05-25T17:32:16+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=6&str=xxx
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001195s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 6  [ RunTime:0.0002s ]
+
+[ 2017-05-25T17:32:17+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=7&str=qqq
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 7  [ RunTime:0.0002s ]
+
+[ 2017-05-25T21:43:37+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=1&str=ccc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001856s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0808s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-05-25T21:43:39+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=5&str=aa
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000704s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001272s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0556s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 5  [ RunTime:0.0002s ]
+

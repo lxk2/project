@@ -1,0 +1,260 @@
+[ 2017-06-12T09:32:18+08:00 ] 127.0.0.1 /Home/Goods/ajax_spec_key.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0045s ]
+SQL: SELECT `spec_price` FROM `goods_spec` WHERE `spec_key` = '4,60,54' AND `goods_id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-12T09:32:20+08:00 ] 127.0.0.1 /Home/Goods/ajax_spec_key.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001235s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0045s ]
+SQL: SELECT `spec_price` FROM `goods_spec` WHERE `spec_key` = '5,60,54' AND `goods_id` = 12 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-06-12T09:32:22+08:00 ] 127.0.0.1 /Home/Cart/addToCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0053s ]
+SQL: SELECT g.id,g.goods_name,g.shop_price,g.market_price,g.image,s.spec_price FROM goods as g left join goods_spec as s on g.id = s.goods_id  WHERE g.id = '12' AND `spec_key` = '5,60,54' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`number` FROM `cart` WHERE `user_key` = '9b537f9697c7ea0617839c81fd84c435' AND `goods_id` = 12 AND `goods_spec_key` = '5,60,54' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `cart` (`user_id`,`user_key`,`goods_id`,`goods_spec_key`,`number`) VALUES ('0','9b537f9697c7ea0617839c81fd84c435','12','5,60,54','1') [ RunTime:0.0870s ]
+
+[ 2017-06-12T09:33:21+08:00 ] 127.0.0.1 /Home/Goods/ajax_spec_key.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001830s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0045s ]
+SQL: SELECT `spec_price` FROM `goods_spec` WHERE `spec_key` = '4,60,54' AND `goods_id` = 12 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-12T09:33:56+08:00 ] 127.0.0.1 /Home/Goods/ajax_spec_key.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001908s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0077s ]
+SQL: SELECT `spec_price` FROM `goods_spec` WHERE `spec_key` = '4,60,54' AND `goods_id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-12T09:33:56+08:00 ] 127.0.0.1 /Home/Goods/ajax_spec_key.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003079s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0047s ]
+SQL: SELECT `spec_price` FROM `goods_spec` WHERE `spec_key` = '4,60,54' AND `goods_id` = 12 LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-06-12T09:33:57+08:00 ] 127.0.0.1 /Home/Goods/ajax_spec_key.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0079s ]
+SQL: SELECT `spec_price` FROM `goods_spec` WHERE `spec_key` = '5,60,54' AND `goods_id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-12T09:34:03+08:00 ] 127.0.0.1 /Home/Cart/addToCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0076s ]
+SQL: SELECT g.id,g.goods_name,g.shop_price,g.market_price,g.image,s.spec_price FROM goods as g left join goods_spec as s on g.id = s.goods_id  WHERE g.id = '12' AND `spec_key` = '5,60,54' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`number` FROM `cart` WHERE `user_key` = '9b537f9697c7ea0617839c81fd84c435' AND `goods_id` = 12 AND `goods_spec_key` = '5,60,54' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cart` SET `number`='5' WHERE `id` = 2 [ RunTime:0.1278s ]
+
+[ 2017-06-12T10:13:41+08:00 ] 127.0.0.1 /Home/Cart/productinfo.html
+ERR: 非法操作:productinfo
+
+[ 2017-06-12T10:49:42+08:00 ] 127.0.0.1 /Home/Cart/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+
+[ 2017-06-12T10:49:47+08:00 ] 127.0.0.1 /Home/Cart/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001087s ]
+
+[ 2017-06-12T10:50:07+08:00 ] 127.0.0.1 /Home/Cart/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+
+[ 2017-06-12T10:51:39+08:00 ] 127.0.0.1 /Home/Cart/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001187s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001822s ]
+
+[ 2017-06-12T10:52:30+08:00 ] 127.0.0.1 /Home/Cart/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001760s ]
+
+[ 2017-06-12T10:53:34+08:00 ] 127.0.0.1 /Home/Cart/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001662s ]
+
+[ 2017-06-12T10:56:36+08:00 ] 127.0.0.1 /Home/Cart/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+
+[ 2017-06-12T10:59:21+08:00 ] 127.0.0.1 /Home/Cart/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000680s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+
+[ 2017-06-12T10:59:42+08:00 ] 127.0.0.1 /Home/Cart/del.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001471s ]
+
+[ 2017-06-12T11:00:23+08:00 ] 127.0.0.1 /Home/Cart/del.html?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+
+[ 2017-06-12T11:08:12+08:00 ] 127.0.0.1 /Home/Goods/ajax_spec_key.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000765s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0045s ]
+SQL: SELECT `spec_price` FROM `goods_spec` WHERE `spec_key` = '' AND `goods_id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-12T11:08:14+08:00 ] 127.0.0.1 /Home/Cart/addToCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0046s ]
+SQL: SELECT g.id,g.goods_name,g.shop_price,g.market_price,g.image,s.spec_price FROM goods as g left join goods_spec as s on g.id = s.goods_id  WHERE g.id = '13' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0045s ]
+SQL: SELECT `id`,`number` FROM `cart` WHERE `user_key` = '9b537f9697c7ea0617839c81fd84c435' AND `goods_id` = 13 LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `cart` (`user_id`,`user_key`,`goods_id`,`goods_spec_key`,`number`) VALUES ('0','9b537f9697c7ea0617839c81fd84c435','13','0','6') [ RunTime:0.0709s ]
+
+[ 2017-06-12T11:08:45+08:00 ] 127.0.0.1 /Home/Goods/ajax_spec_key.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000958s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001759s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0047s ]
+SQL: SELECT `spec_price` FROM `goods_spec` WHERE `spec_key` = '4,60,54' AND `goods_id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-06-12T11:08:47+08:00 ] 127.0.0.1 /Home/Goods/ajax_spec_key.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0080s ]
+SQL: SELECT `spec_price` FROM `goods_spec` WHERE `spec_key` = '5,60,54' AND `goods_id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-12T11:08:49+08:00 ] 127.0.0.1 /Home/Cart/addToCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001078s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0077s ]
+SQL: SELECT g.id,g.goods_name,g.shop_price,g.market_price,g.image,s.spec_price FROM goods as g left join goods_spec as s on g.id = s.goods_id  WHERE g.id = '12' AND `spec_key` = '5,60,54' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`number` FROM `cart` WHERE `user_key` = '9b537f9697c7ea0617839c81fd84c435' AND `goods_id` = 12 AND `goods_spec_key` = '5,60,54' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `cart` (`user_id`,`user_key`,`goods_id`,`goods_spec_key`,`number`) VALUES ('0','9b537f9697c7ea0617839c81fd84c435','12','5,60,54','3') [ RunTime:0.1236s ]
+
+[ 2017-06-12T11:08:50+08:00 ] 127.0.0.1 /Home/Goods/ajax_spec_key.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0211s ]
+SQL: SELECT `spec_price` FROM `goods_spec` WHERE `spec_key` = '4,60,54' AND `goods_id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-12T11:08:52+08:00 ] 127.0.0.1 /Home/Cart/addToCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001065s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0044s ]
+SQL: SELECT g.id,g.goods_name,g.shop_price,g.market_price,g.image,s.spec_price FROM goods as g left join goods_spec as s on g.id = s.goods_id  WHERE g.id = '12' AND `spec_key` = '4,60,54' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0042s ]
+SQL: SELECT `id`,`number` FROM `cart` WHERE `user_key` = '9b537f9697c7ea0617839c81fd84c435' AND `goods_id` = 12 AND `goods_spec_key` = '4,60,54' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `cart` (`user_id`,`user_key`,`goods_id`,`goods_spec_key`,`number`) VALUES ('0','9b537f9697c7ea0617839c81fd84c435','12','4,60,54','5') [ RunTime:0.0860s ]
+
+[ 2017-06-12T11:09:36+08:00 ] 127.0.0.1 /Home/Goods/ajax_spec_key.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001976s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0044s ]
+SQL: SELECT `spec_price` FROM `goods_spec` WHERE `spec_key` = '4,60,54' AND `goods_id` = 12 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-06-12T11:09:38+08:00 ] 127.0.0.1 /Home/Goods/ajax_spec_key.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001169s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0076s ]
+SQL: SELECT `spec_price` FROM `goods_spec` WHERE `spec_key` = '5,60,54' AND `goods_id` = 12 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-12T11:09:39+08:00 ] 127.0.0.1 /Home/Cart/addToCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001116s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0083s ]
+SQL: SELECT g.id,g.goods_name,g.shop_price,g.market_price,g.image,s.spec_price FROM goods as g left join goods_spec as s on g.id = s.goods_id  WHERE g.id = '12' AND `spec_key` = '5,60,54' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0041s ]
+SQL: SELECT `id`,`number` FROM `cart` WHERE `user_key` = '9b537f9697c7ea0617839c81fd84c435' AND `goods_id` = 12 AND `goods_spec_key` = '5,60,54' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `cart` SET `number`='4' WHERE `id` = 4 [ RunTime:0.1211s ]
+
+[ 2017-06-12T11:09:51+08:00 ] 127.0.0.1 /Home/Goods/ajax_spec_key.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0050s ]
+SQL: SELECT `spec_price` FROM `goods_spec` WHERE `spec_key` = '4,60,54' AND `goods_id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-12T11:09:59+08:00 ] 127.0.0.1 /Home/Goods/ajax_spec_key.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0044s ]
+SQL: SELECT `spec_price` FROM `goods_spec` WHERE `spec_key` = '4,60,55' AND `goods_id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-12T11:09:59+08:00 ] 127.0.0.1 /Home/Goods/ajax_spec_key.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0080s ]
+SQL: SELECT `spec_price` FROM `goods_spec` WHERE `spec_key` = '5,60,55' AND `goods_id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-12T11:10:01+08:00 ] 127.0.0.1 /Home/Cart/addToCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000662s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001062s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0077s ]
+SQL: SELECT g.id,g.goods_name,g.shop_price,g.market_price,g.image,s.spec_price FROM goods as g left join goods_spec as s on g.id = s.goods_id  WHERE g.id = '11' AND `spec_key` = '5,60,55' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0041s ]
+SQL: SELECT `id`,`number` FROM `cart` WHERE `user_key` = '9b537f9697c7ea0617839c81fd84c435' AND `goods_id` = 11 AND `goods_spec_key` = '5,60,55' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `cart` (`user_id`,`user_key`,`goods_id`,`goods_spec_key`,`number`) VALUES ('0','9b537f9697c7ea0617839c81fd84c435','11','5,60,55','2') [ RunTime:0.1459s ]
+
+[ 2017-06-12T11:10:03+08:00 ] 127.0.0.1 /Home/Goods/ajax_spec_key.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000670s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001072s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0078s ]
+SQL: SELECT `spec_price` FROM `goods_spec` WHERE `spec_key` = '5,60,54' AND `goods_id` = 11 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-06-12T11:10:04+08:00 ] 127.0.0.1 /Home/Goods/ajax_spec_key.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000804s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `goods_spec` [ RunTime:0.0044s ]
+SQL: SELECT `spec_price` FROM `goods_spec` WHERE `spec_key` = '4,60,54' AND `goods_id` = 11 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-06-12T11:10:05+08:00 ] 127.0.0.1 /Home/Cart/addToCart.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `goods` [ RunTime:0.0044s ]
+SQL: SELECT g.id,g.goods_name,g.shop_price,g.market_price,g.image,s.spec_price FROM goods as g left join goods_spec as s on g.id = s.goods_id  WHERE g.id = '11' AND `spec_key` = '4,60,54' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `cart` [ RunTime:0.0058s ]
+SQL: SELECT `id`,`number` FROM `cart` WHERE `user_key` = '9b537f9697c7ea0617839c81fd84c435' AND `goods_id` = 11 AND `goods_spec_key` = '4,60,54' LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `cart` (`user_id`,`user_key`,`goods_id`,`goods_spec_key`,`number`) VALUES ('0','9b537f9697c7ea0617839c81fd84c435','11','4,60,54','1') [ RunTime:0.1210s ]
+
+[ 2017-06-12T21:11:36+08:00 ] 127.0.0.1 /Home/Cart/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000909s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000973s ]
+

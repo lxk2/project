@@ -1,0 +1,97 @@
+[ 2017-05-26T09:06:31+08:00 ] 127.0.0.1 /Admin/Index/page.html
+ERR: 非法操作:page
+
+[ 2017-05-26T09:20:25+08:00 ] 127.0.0.1 /Admin/Index/page.html
+ERR: 非法操作:page
+
+[ 2017-05-26T09:20:27+08:00 ] 127.0.0.1 /Admin/Index/page.html
+ERR: 非法操作:page
+
+[ 2017-05-26T09:25:47+08:00 ] 127.0.0.1 /Admin/Norm/add.html
+ERR: Think\Model:validata方法不存在！
+
+[ 2017-05-26T12:03:16+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=11&str=%E6%96%B0%E9%97%BB
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001322s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 11  [ RunTime:0.0004s ]
+
+[ 2017-05-26T12:03:33+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=11&str=%E6%96%B0%E9%97%BB
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000913s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 11  [ RunTime:0.0003s ]
+
+[ 2017-05-26T12:03:34+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=12&str=%E5%93%81%E7%89%8C%E6%96%B0%E9%97%BB
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000530s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 12  [ RunTime:0.0003s ]
+
+[ 2017-05-26T12:03:44+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=1&str=ccc
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000867s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-05-26T12:03:46+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=11&str=%E6%96%B0%E9%97%BB
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 11  [ RunTime:0.0002s ]
+
+[ 2017-05-26T12:04:05+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=11&str=%E6%96%B0%E9%97%BB
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 11  [ RunTime:0.0003s ]
+
+[ 2017-05-26T12:04:09+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=12&str=%E5%93%81%E7%89%8C%E6%96%B0%E9%97%BB
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000893s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0033s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 12  [ RunTime:0.0003s ]
+
+[ 2017-05-26T12:04:37+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=11&str=%E6%96%B0%E9%97%BB
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000545s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0735s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 11  [ RunTime:0.0007s ]
+
+[ 2017-05-26T12:04:47+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=11&str=%E6%96%B0%E9%97%BB
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 11  [ RunTime:0.0005s ]
+
+[ 2017-05-26T12:06:10+08:00 ] 127.0.0.1 /Admin/Category/add.html?parent_id=12&str=%E5%93%81%E7%89%8C%E6%96%B0%E9%97%BB
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `category` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `category` WHERE `parent_id` = 12  [ RunTime:0.0003s ]
+
+[ 2017-05-26T21:42:58+08:00 ] 127.0.0.1 /Admin/GoodsType/add.html
+ERR: Think\Model:goodsTypeAdd方法不存在！
+
+[ 2017-05-26T21:49:08+08:00 ] 127.0.0.1 /Admin/GoodsType/add.html
+ERR: Think\Model:goodsTypeAdd方法不存在！
+
+[ 2017-05-26T21:53:22+08:00 ] 127.0.0.1 /Admin/GoodsType/add.html
+ERR: Think\Model:goodsTypeAdd方法不存在！
+
+[ 2017-05-26T22:21:23+08:00 ] 127.0.0.1 /Admin/GoodsType/index.html
+ERR: Think\Model:dataType方法不存在！
+
+[ 2017-05-26T22:21:40+08:00 ] 127.0.0.1 /Admin/GoodsType/index.html
+ERR: Think\Model:goodsTypeList方法不存在！
+

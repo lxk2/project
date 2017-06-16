@@ -1,0 +1,52 @@
+<div class="panel admin-panel">
+  <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>
+  规格<empty name="Think.get.id">添加<else/>编辑</empty>
+  </strong></div>
+  <div class="body-content">
+    <form method="post" class="form-x" action="{:U('',['id'=>$_GET['id']])}">  
+      <div class="form-group">
+        <div class="label">
+          <label>规格名称：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" name="spec_name" value="{$spec['spec_name']|default=''}" />
+          <div class="tips"></div>
+        </div>
+      </div>
+	  
+	  <div class="form-group sele">
+        <div class="label">
+          <label>商品模型：</label>
+        </div>
+        <div class="field">
+          <select name="type_id" class="input w50" >
+			<option value="">--请选择商品模型--</option>
+			<foreach name="type" item="value">
+			<option <?php if($spec['type_id'] == $value['id']){ echo 'selected'; } ?> value="{$value['id']}">{$value['type_name']}</option>
+			</foreach>
+		  </select>
+          <div class="tips"></div>
+        </div>
+      </div>
+	  
+	  <div class="form-group">
+        <div class="label">
+          <label>规格选项：</label>
+        </div>
+        <div class="field">
+          <textarea name="items" class="input" style="width:350px;height:150px;resize:none;">{$spec['spec_items']|default=''}</textarea>
+          <div class="tips">一行为一个选项</div>
+        </div>
+      </div>
+		
+      <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <button class="button bg-main icon-check-square-o" type="submit"> 提交</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

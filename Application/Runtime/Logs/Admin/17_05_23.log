@@ -1,0 +1,9 @@
+[ 2017-05-23T14:40:36+08:00 ] 127.0.0.1 /Admin/Index/info.html
+ERR: 非法操作:info
+
+[ 2017-05-23T14:46:13+08:00 ] 127.0.0.1 /Admin/Index/del/id/4.html
+ERR: 非法操作:del
+
+[ 2017-05-23T15:23:25+08:00 ] 127.0.0.1 /Admin/Index/info.html
+ERR: 非法操作:info
+

@@ -1,0 +1,126 @@
+[ 2017-06-08T10:38:01+08:00 ] 127.0.0.1 /Home/Index/contact_us.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000783s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0067s ]
+NOTIC: [8] Undefined index: validate C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000070s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000111s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2017-06-08T10:39:14+08:00 ] 127.0.0.1 /Home/Index/contact_us.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001046s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: validate C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-06-08T10:39:28+08:00 ] 127.0.0.1 /Home/Index/contact_us.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001128s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001486s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: validate C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Array to string conversion C:\Users\sky\Desktop\project\Application\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2017-06-08T10:40:41+08:00 ] 127.0.0.1 /Home/Index/contact_us.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001156s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0906s ]
+NOTIC: [8] Undefined index: validate C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Array to string conversion C:\Users\sky\Desktop\project\Application\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2017-06-08T10:42:06+08:00 ] 127.0.0.1 /Home/Index/contact_us.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001016s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001591s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: validate C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Array to string conversion C:\Users\sky\Desktop\project\Application\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2017-06-08T10:42:08+08:00 ] 127.0.0.1 /Home/Index/contact_us.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001160s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001699s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0069s ]
+NOTIC: [8] Undefined index: validate C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Array to string conversion C:\Users\sky\Desktop\project\Application\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2017-06-08T10:42:29+08:00 ] 127.0.0.1 /Home/Index/contact_us.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001518s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002380s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+NOTIC: [8] Array to string conversion C:\Users\sky\Desktop\project\Application\Home\Controller\IndexController.class.php 第 14 行.
+
+[ 2017-06-08T10:44:23+08:00 ] 127.0.0.1 /Home/Index/contact_us.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002834s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0074s ]
+NOTIC: [8] Undefined index: validate C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `message` (`name`,`area`,`company`,`tel`,`email`,`content`) VALUES ('aaaaa','aa','aa','13825569685','123456@qq.com','aa') [ RunTime:0.1246s ]
+
+[ 2017-06-08T10:45:08+08:00 ] 127.0.0.1 /Home/Index/contact_us.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001850s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0036s ]
+NOTIC: [8] Undefined index: validate C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `message` (`name`,`area`,`company`,`tel`,`email`,`content`) VALUES ('aa','aa','aa','13825569685','123456@qq.com','aa') [ RunTime:0.0854s ]
+
+[ 2017-06-08T10:45:47+08:00 ] 127.0.0.1 /Home/Index/contact_us.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0068s ]
+NOTIC: [8] Undefined index: validate C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+
+[ 2017-06-08T10:45:50+08:00 ] 127.0.0.1 /Home/Index/contact_us.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001061s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0034s ]
+NOTIC: [8] Undefined index: validate C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `message` (`name`,`area`,`company`,`tel`,`email`,`content`) VALUES ('qq','aaa','2','13825569685','123456@qq.com','a') [ RunTime:0.1274s ]
+
+[ 2017-06-08T10:48:06+08:00 ] 127.0.0.1 /Home/Index/contact_us.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `message` [ RunTime:0.0070s ]
+NOTIC: [8] Undefined index: validate C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto C:\Users\sky\Desktop\project\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `message` (`name`,`area`,`company`,`tel`,`email`,`content`) VALUES ('aaa','159','','13825569685','123456@qq.com','aa') [ RunTime:0.1191s ]
+
+[ 2017-06-08T11:39:50+08:00 ] 127.0.0.1 /Home/Index/news.html
+ERR: 非法操作:news
+
+[ 2017-06-08T11:40:58+08:00 ] 127.0.0.1 /Home/Index/shopping.html
+ERR: 非法操作:shopping
+
+[ 2017-06-08T20:12:29+08:00 ] 127.0.0.1 /Home/Goods/band.html
+ERR: 非法操作:band
+
+[ 2017-06-08T20:26:26+08:00 ] 127.0.0.1 /Home/Goods/productinfo.html
+ERR: 非法操作:productinfo
+

@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<title>首页</title>
+<link rel="stylesheet" href="__PUBLIC__font/iconfont.css"/>
+<link rel="stylesheet" href="__PUBLIC__css/public.css"/>
+<link rel="stylesheet" href="__PUBLIC__css/private.css"/>
+<script src="__PUBLIC__js/jquery.js"></script>
+
+<script src="__PUBLIC__js/production.js"></script>
+
+<link rel="stylesheet" href="__PUBLIC__css/back.css"/>
+
+</head>
+<body>
+<div class="header">
+	<div class="top">
+        <div class="logo"><img src="__PUBLIC__images/logo.jpg"/></div>
+        <div class="shop"><p><i class="iconfont icon-gouwuche"></i>&nbsp;<a href="{:U('Cart/index')}">购物车</a>
+        	&nbsp;&nbsp;<i class="iconfont icon-gerenzhongxin"></i>&nbsp;<a href="{:U('User/index')}">个人中心</a></p>
+        	<a  class="suosuo" href="#"><img src="__PUBLIC__images/sousuo.jpg"></a>
+             <input type="text" class="text" value="请输入要搜索的商品" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = '请输入要搜索的商品';}">
+    	</div>
+ 	</div>   
+</div>
+
+
+<div class="nav">
+	<div class="nav1">	
+        <ul >
+            
+            <li><a class="hover" href="{:U('Index/index')}">首页</a></li>
+            <li><a  href="band.html">品牌介绍</a></li>
+            <li><a href="news.html">新闻中心</a></li>
+            <li><a href="{:U('Goods/index')}">产品中心</a></li>
+            <li><a href="{:U('contact_us')}">联系我们</a></li>
+        </ul>
+	</div>
+   
+</div>

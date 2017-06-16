@@ -1,0 +1,70 @@
+/***index.html*****/
+.banner{ width:100%;height:683px;background:url(../images/banner.jpg) no-repeat center center;position:relative;}
+.banner .bannerp{ width:1200px; height:230px; margin:0 auto;  position:absolute; top:420px; left:165px; }
+.banner .bannerp ul{ width:1200px; height:230px;float:left;}
+.banner .bannerp ul li{ width:370px; height:230px; float:left; margin-left:30px; background:rgba(21,17,17,0.4); border-radius:10px 10px 10px 10px;}
+.banner .bannerp ul li:hover{  -webkit-transform:scale(0.9,0.9);transform:scale(0.9,0.9);-webkit-transition:all 1S ease; transition:all 1S ease;}
+/***band.html*****/
+.bandbanner{ width:100%;height:356px;background:url(../images/bandbanner.jpg) no-repeat center center;}
+.bandbanner a{display:inline-block;width:100%;height:356px;}
+.bandintrodoce{width:1200px; overflow:hidden;margin:0 auto;  margin-top:50px;}
+.bandintrodoce .bandl{width:250px; height:overflow:hidden; float:left;}
+.bandintrodoce .bandl .bandnav ul{width:250px; overflow:hidden; color:#fff;background:#999; }
+.bandintrodoce .bandl .bandnav ul p{ display:inline-block;width:250px;height:55px; background:#25211b; text-align:center; line-height:55px; font-size:24px; font-family:"Î¢ÈíÑÅºÚ";}
+.bandintrodoce .bandl .bandnav ul li{ width:250px; height:48px;background:#333; position:relative;margin:15px 0 0 0;margin-bottom:20px;}
+.bandintrodoce .bandl .bandnav ul li a{ width:250px; height:48px; display:inline-block; text-align:center; line-height:48px; font-size:18px; font-family:"Î¢ÈíÑÅºÚ"; color:#fff;}
+.bandintrodoce .bandl .bandnav ul li a.hov{ color:#000; background:url(../images/bandnav.png) no-repeat;z-index:666; position:absolute; top:-7px; left:35px;width:183px; height:63px;line-height:63px;font-family:"Î¢ÈíÑÅºÚ";}
+.bandintrodoce .bandl .bandlnum{ width:250px; height:117px; }
+.bandintrodoce .bandl .bandlnum img{width:248px;border: 1px solid #ccc;margin-top:10px; }
+.bandintrodoce .bandl .twodbc{ width:248px; height:260px;}
+.bandintrodoce .bandl .twodbc img{margin:10px  0 10px 25px;}
+.bandintrodoce .bandl .twodbc p{ text-align:center;line-height:42px; font-size:18px; font-family:"Î¢ÈíÑÅºÚ"; color:#000;}
+.bandintrodoce .bandr{width:920px; overflow:hidden;float:right; border: 1px solid #ccc;border-radius:10px 10px 10px 10px; margin-bottom:75px;}
+.bandintrodoce .bandr p.bandrr{display:inline-block; height:45px; width:920px; background:#999; line-height:45px;font-size:14px; font-family:"Î¢ÈíÑÅºÚ";border-radius:10px 10px 0px 0px;}
+.bandintrodoce .bandr p.bandrr i{ margin:0 10px 0 20px;}
+.bandintrodoce .bandr p.bandrr span{ float:right; margin-right:50px; font-size:12px; font-family:"Î¢ÈíÑÅºÚ";}
+.bandintrodoce .bandr p.bandrr span a{color:#000;}
+.bandintrodoce .bandr dl{ width:898px; overflow:hidden; margin:20px 10px 90px 10px;}
+.bandintrodoce .bandr img{ float:right;}
+.bandintrodoce .bandr dl p{ text-indent:2em; line-height:24px;font-size:14px;}
+/***news.html*****/
+.bandintrodoce .bandr ul{ width:898px; overflow:hidden;}
+.bandintrodoce .bandr ul li{ width:898px; overflow:hidden; margin:30px 10px 10px 10px; border-bottom:1px dashed black;}
+.bandintrodoce .bandr ul li.news{border-bottom:none;}
+.bandintrodoce .bandr ul li dt{ width:230px; float:left;}
+.bandintrodoce .bandr ul li  p{ width:640px; float:right; text-indent:0;font-size:18px; font-family:"Î¢ÈíÑÅºÚ"; color:#f63; line-height:42px; }
+.bandintrodoce .bandr ul li  p span{ float:right;font-size:16px;color:#000; width:200px;}
+.bandintrodoce .bandr ul li dd{width:668px; float:right; font-size:14px; color:#000; line-height:30px; margin-bottom:20px;}
+.bandintrodoce .bandr .num{width:455px; height:92px; margin:15px 0 0 270px; }
+.bandintrodoce .bandr .num ul{ width:455px; height:80px;  margin:0 auto; float:left;}
+.bandintrodoce .bandr .num ul li{ width:50px;  height:30px;  text-align:center; float:left; line-height:30px; border-bottom:none; margin:0;}
+.bandintrodoce .bandr .num ul li a{display:inline-block; font-size:14px;color:#000;}
+.bandintrodoce .bandr .num ul li.hv {background:#f96; font-weight:900;}
+.bandintrodoce .bandr .num ul li:hover {background:#f96; font-weight:900;}
+/***newsinfo.html*****/
+.bandintrodoce .newsinfo{width:920px; overflow:hidden;float:right; border: 1px solid #ccc;border-radius:10px 10px 10px 10px; margin-bottom:75px;}
+.bandintrodoce .newsinfo p.bandrr{display:inline-block; height:45px; width:920px; background:#999; line-height:45px;font-size:14px; font-family:"Î¢ÈíÑÅºÚ";border-radius:10px 10px 0px 0px;}
+.bandintrodoce .newsinfo p.bandrr i{ margin:0 10px 0 20px;}
+.bandintrodoce .newsinfo p.bandrr span{ float:right; margin-right:50px; font-size:12px; font-family:"Î¢ÈíÑÅºÚ";}
+.bandintrodoce .newsinfo p.bandrr span a{color:#000;}
+.bandintrodoce .newsinfo dl{ width:898px; overflow:hidden; margin:20px 10px 90px 10px;}
+.bandintrodoce .newsinfo  dt{ width:475px; float:right; margin-right:15px; border-bottom:1px solid #ccc; font-size:20px; font-family:"Î¢ÈíÑÅºÚ"; text-align:center; color:#f63;}
+.bandintrodoce .newsinfo  dt.dt{ width:475px; float:right; margin-right:15px; font-size:20px; font-family:"Î¢ÈíÑÅºÚ"; text-align:center; color:#f63;border:none; margin-bottom:10px;}
+.bandintrodoce .newsinfo  dt.dt span{ font-size:12px;color:#000; margin-right:40px;}
+.bandintrodoce .newsinfo img{ float:left;}
+.bandintrodoce .newsinfo dl p{ text-indent:2em; line-height:24px;font-size:15.43px;}
+/***product.html*****/
+.bandintrodoce .product{width:920px; overflow:hidden;float:right; border: 1px solid #ccc;border-radius:10px 10px 10px 10px; margin-bottom:75px;}
+.bandintrodoce .product ul{width:880px; overflow:hidden; margin:30px 20px 30px 20px;}
+.bandintrodoce .product ul li{width:165px;overflow:hidden; float:left; margin-left:45px;}
+.bandintrodoce .product ul li img:hover{ -webkit-transform:scale(1.1,1.1);transform:scale(1.1,1.1);-webkit-transition:all 1S ease; transition:all 1S ease;}
+.bandintrodoce .product ul li .producttitle{width:165px; height:100px; }
+.bandintrodoce .product ul li .producttitle p{ font-size:14px; line-height:24px;}
+.bandintrodoce .product ul li .producttitle p.p{font-size:16px; line-height:24px; font-family:"Î¢ÈíÑÅºÚ";}
+.bandintrodoce .product ul li .producttitle p.p span a{ width:85px; font-size:12px; line-height:24px; color:#fff; float:right; background:#f63; text-align:center;}
+.bandintrodoce .product p.bandrr{display:inline-block; height:45px; width:920px; background:#999; line-height:45px;font-size:14px; font-family:"Î¢ÈíÑÅºÚ";border-radius:10px 10px 0px 0px;}
+.bandintrodoce .product p.bandrr i{ margin:0 10px 0 20px;}
+.bandintrodoce .product p.bandrr span{ float:right; margin-right:50px; font-size:12px; font-family:"Î¢ÈíÑÅºÚ";}
+.bandintrodoce .product p.bandrr span a{color:#000;}
+    
+
